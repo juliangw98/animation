@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="De smaak van authentiek thaise streetfood, midden in den haag. kom nu ook langs bij mama thai voor de smaak van thailand.">
+        <meta name="keywords" content="Thai, Thai food, Thais restaurant">
+        <meta name="author" content="Julian Wieckardt">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>animation</title>
+    </head>
+
+    <body>
+
+
+        <div id="mobile-container">
+            <div id="div-1"></div>
+            <div id="div-2"></div>
+            <div id="div-3"></div>
+            <div id="div-4"></div>
+            <div id="div-5"></div>
+        </div>
+        <div id="content-div-1"></div>
+        <div id="content-div-2"></div>
+        <div id="content-div-3"></div>
+        <div id="content-div-4"></div>
+        <div id="content-div-5"></div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                // Transition effect for navbar
+                $(window).scroll(function() {
+                    // checks if window is scrolled more than 500px, adds/removes solid class
+
+                    if ($(this).scrollTop() > 50) {
+                        $('.navbar').addClass('solid');
+                        $('.navbar-collapse').addClass('bg-white');
+
+                    } else {
+                        $('.navbar').removeClass('solid');
+                        $('.navbar-collapse').removeClass('bg-white');
+
+                    }
+                });
+
+
+            });
+
+        </script>
+    </body>
+
+</html>
