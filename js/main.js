@@ -4,6 +4,17 @@ $(window).on('load', function () {
   // $('#mobile-container').style.height = "100px";
 });
 
+function resize()
+        {
+            var heights = window.innerHeight;
+            document.getElementById("mobile-container").style.height = heights -50 + "px";
+        }
+        resize();
+        window.onresize = function() {
+            resize();
+        };
+        //]]>
+
 $(document).ready(function() {
   $("#div-1").click(function() {
     // alert('klik');
