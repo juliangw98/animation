@@ -8134,6 +8134,54 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+#mobile-container {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "div-1 div-1" "div-2 div-3" "div-2 div-4" "div-5 div-6"; }
+
+#div-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: div-1;
+  background-color: red; }
+
+#div-2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: div-2;
+  background-color: orange; }
+
+#div-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: div-3;
+  background-color: green; }
+
+#div-4 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: div-4;
+  background-color: yellow; }
+
+#div-5 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: div-5;
+  background-color: blue; }
+
+#div-6 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: div-6;
+  background-color: purple; }
+
 * {
   margin: 0;
   padding: 0; }

@@ -41,11 +41,9 @@
 @import "bootstrap/spinners";
 @import "bootstrap/utilities";
 @import "bootstrap/print"; // eigen
-
-
-@import "custom/header";
 @import "custom/font";
-@import "custom/menu";
+@import "custom/layout";
+
 * {
   margin: 0;
   padding: 0;
